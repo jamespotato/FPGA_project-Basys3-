@@ -1,0 +1,92 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Nov 04 16:07:35 2019
+| Host         : ECE-LAB303 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file lab4_top_control_sets_placed.rpt
+| Design       : lab4_top
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    39 |
+| Unused register locations in slices containing registers |    45 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              21 |           10 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              96 |           24 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             438 |          139 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------+----------------------------+----------------------------+------------------+----------------+
+|                Clock Signal               |        Enable Signal       |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
++-------------------------------------------+----------------------------+----------------------------+------------------+----------------+
+|  CDIV1/CLK                                |                            |                            |                2 |              2 |
+|  FSM_sequential_next_state_reg[2]_i_2_n_0 |                            |                            |                1 |              3 |
+|  cout2_BUFG                               |                            |                            |                1 |              3 |
+|  CDIV/I61                                 | slow_counter[4]_i_2_n_0    | slow_counter               |                2 |              5 |
+|  cout2_BUFG                               | input_count[4]_i_2_n_0     | input_count[4]_i_1_n_0     |                1 |              5 |
+|  clk_IBUF_BUFG                            |                            |                            |                4 |              6 |
+|  cout2_BUFG                               | store[18][6]_i_2_n_0       | store[18][6]_i_1_n_0       |                3 |              7 |
+|  cout2_BUFG                               | store[19][6]_i_2_n_0       | store[19][6]_i_1_n_0       |                4 |              7 |
+|  cout2_BUFG                               | store[1][6]_i_2_n_0        | store[1][6]_i_1_n_0        |                2 |              7 |
+|  cout2_BUFG                               | store[2][6]_i_2_n_0        | store[2][6]_i_1_n_0        |                3 |              7 |
+|  cout2_BUFG                               | store[3][6]_i_2_n_0        | store[3][6]_i_1_n_0        |                5 |              7 |
+|  cout2_BUFG                               | store[4][6]_i_2_n_0        | store[4][6]_i_1_n_0        |                4 |              7 |
+|  cout2_BUFG                               | store[5][6]_i_2_n_0        | store[5][6]_i_1_n_0        |                4 |              7 |
+|  cout2_BUFG                               | store[6][6]_i_2_n_0        | store[6][6]_i_1_n_0        |                5 |              7 |
+|  cout2_BUFG                               | store[7][6]_i_2_n_0        | store[7][6]_i_1_n_0        |                2 |              7 |
+|  cout2_BUFG                               | store[8][6]_i_2_n_0        | store[8][6]_i_1_n_0        |                2 |              7 |
+|  cout2_BUFG                               | store[9][6]_i_2_n_0        | store[9][6]_i_1_n_0        |                2 |              7 |
+|  seven_seg1_reg[6]_i_2_n_0                |                            |                            |                2 |              7 |
+|  cout2_BUFG                               | store[0][6]_i_2_n_0        | store[0][6]_i_1_n_0        |                3 |              7 |
+|  cout2_BUFG                               | store[10][6]_i_2_n_0       | store[10][6]_i_1_n_0       |                2 |              7 |
+|  cout2_BUFG                               | store[11][6]_i_2_n_0       | store[11][6]_i_1_n_0       |                3 |              7 |
+|  cout2_BUFG                               | store[12][6]_i_2_n_0       | store[12][6]_i_1_n_0       |                4 |              7 |
+|  cout2_BUFG                               | store[13][6]_i_2_n_0       | store[13][6]_i_1_n_0       |                4 |              7 |
+|  cout2_BUFG                               | store[14][6]_i_2_n_0       | store[14][6]_i_1_n_0       |                2 |              7 |
+|  cout2_BUFG                               | store[15][6]_i_2_n_0       | store[15][6]_i_1_n_0       |                4 |              7 |
+|  cout2_BUFG                               | store[16][6]_i_2_n_0       | store[16][6]_i_1_n_0       |                3 |              7 |
+|  cout2_BUFG                               | store[17][6]_i_2_n_0       | store[17][6]_i_1_n_0       |                3 |              7 |
+|  clk_IBUF_BUFG                            |                            | CDIV/count0[0]_i_1__1_n_0  |                8 |             32 |
+|  clk_IBUF_BUFG                            |                            | CDIV1/count0[0]_i_1_n_0    |                8 |             32 |
+|  clk_IBUF_BUFG                            |                            | CDIV2/count0[0]_i_1__0_n_0 |                8 |             32 |
+|  clk_IBUF_BUFG                            | CDIV/count0[0]_i_1__1_n_0  | CDIV/count1[0]_i_1__1_n_0  |                8 |             32 |
+|  clk_IBUF_BUFG                            | CDIV/count1[0]_i_1__1_n_0  | CDIV/sel                   |                8 |             32 |
+|  clk_IBUF_BUFG                            | CDIV/sel                   | CDIV/clear                 |                8 |             32 |
+|  clk_IBUF_BUFG                            | CDIV1/count0[0]_i_1_n_0    | CDIV1/count1[0]_i_1_n_0    |                8 |             32 |
+|  clk_IBUF_BUFG                            | CDIV1/count1[0]_i_1_n_0    | CDIV1/count2[0]_i_1_n_0    |                8 |             32 |
+|  clk_IBUF_BUFG                            | CDIV1/count2[0]_i_1_n_0    | CDIV1/count3[0]_i_1_n_0    |                8 |             32 |
+|  clk_IBUF_BUFG                            | CDIV2/count0[0]_i_1__0_n_0 | CDIV2/count1[0]_i_1__0_n_0 |                8 |             32 |
+|  clk_IBUF_BUFG                            | CDIV2/count1[0]_i_1__0_n_0 | CDIV2/count2[0]_i_1__0_n_0 |                8 |             32 |
+|  clk_IBUF_BUFG                            | CDIV2/count2[0]_i_1__0_n_0 | CDIV2/count3[0]_i_1__0_n_0 |                8 |             32 |
++-------------------------------------------+----------------------------+----------------------------+------------------+----------------+
+
+

@@ -1,0 +1,69 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Nov 21 20:45:15 2019
+| Host         : ECE-LAB304 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file lab7_top_control_sets_placed.rpt
+| Design       : lab7_top
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    27 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              60 |           25 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              65 |           17 |
+| Yes          | No                    | No                     |              16 |            3 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             232 |           61 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+----------------------------+---------------------------------+------------------+----------------+
+|  Clock Signal  |        Enable Signal       |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++----------------+----------------------------+---------------------------------+------------------+----------------+
+|  cout1_BUFG    |                            | FSM_sequential_state[0]_i_1_n_0 |                1 |              1 |
+|  CDIV2/cout    |                            |                                 |                1 |              2 |
+|  cout1_BUFG    |                            |                                 |                1 |              2 |
+|  clk_IBUF_BUFG | COD/i[3]_i_2_n_0           | COD/i                           |                2 |              4 |
+|  cout1_BUFG    | iteration[3]_i_2_n_0       |                                 |                3 |             16 |
+|  cout1_BUFG    | x[15]_i_2_n_0              | x[15]_i_1_n_0                   |                4 |             16 |
+|  cout1_BUFG    | iteration[3]_i_2_n_0       | iteration[3]_i_1_n_0            |                7 |             20 |
+|  clk_IBUF_BUFG |                            | CDIV1/count0[0]_i_1_n_0         |                8 |             32 |
+|  clk_IBUF_BUFG |                            | CDIV2/count0[0]_i_1__0_n_0      |                8 |             32 |
+|  clk_IBUF_BUFG | CDIV1/count0[0]_i_1_n_0    | CDIV1/count1[0]_i_1_n_0         |                8 |             32 |
+|  clk_IBUF_BUFG | CDIV1/count1[0]_i_1_n_0    | CDIV1/sel                       |                8 |             32 |
+|  clk_IBUF_BUFG | CDIV1/sel                  | CDIV1/clear                     |                8 |             32 |
+|  clk_IBUF_BUFG | CDIV2/count0[0]_i_1__0_n_0 | CDIV2/count1[0]_i_1__0_n_0      |                8 |             32 |
+|  clk_IBUF_BUFG | CDIV2/count1[0]_i_1__0_n_0 | CDIV2/count2[0]_i_1__0_n_0      |                8 |             32 |
+|  clk_IBUF_BUFG | CDIV2/count2[0]_i_1__0_n_0 | CDIV2/count3[0]_i_1__0_n_0      |                8 |             32 |
+|  clk_IBUF_BUFG |                            |                                 |               23 |             56 |
++----------------+----------------------------+---------------------------------+------------------+----------------+
+
+

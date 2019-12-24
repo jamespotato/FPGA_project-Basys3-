@@ -1,0 +1,1 @@
+-wto "ce56c38281df492da6bcbf5374a4cd1f" --debug "typical" --relax --mt "2" --maxdelay -L "xil_defaultlib" -L "simprims_ver" -L "secureip" --snapshot "lab4_toptb_time_impl" -transport_int_delays -pulse_r "0" -pulse_int_r "0" "xil_defaultlib.lab4_toptb" "xil_defaultlib.glbl" -log "elaborate.log" 

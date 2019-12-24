@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sun Oct 13 16:12:34 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="f214f3c2ac8c45529d9f7a56f16b19bc" type="ProjectID"/>
+<property name="ProjectIteration" value="27" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="8" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="7" type="JavaHandler"/>
+<property name="CloseProject" value="3" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="EditRedo" value="2" type="JavaHandler"/>
+<property name="EditUndo" value="2" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="11" type="JavaHandler"/>
+<property name="OpenExistingReport" value="2" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="7" type="JavaHandler"/>
+<property name="OpenProject" value="8" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="11" type="JavaHandler"/>
+<property name="RunImplementation" value="15" type="JavaHandler"/>
+<property name="RunSynthesis" value="24" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="4" type="JavaHandler"/>
+<property name="SaveProjectAs" value="1" type="JavaHandler"/>
+<property name="SetTopNode" value="1" type="JavaHandler"/>
+<property name="ShowView" value="5" type="JavaHandler"/>
+<property name="SimulationClose" value="12" type="JavaHandler"/>
+<property name="SimulationRun" value="23" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="5" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="3" type="JavaHandler"/>
+<property name="ZoomIn" value="1" type="JavaHandler"/>
+<property name="ZoomOut" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_OPEN_PROJECT, Open Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, 6 critical warnings" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 7" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files], 3" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, lab4_top.v], 2, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, lab4_top.v], 2, false, false, false, false, false, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files], 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files], 1, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 9" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 8" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near =. [D:/4302_labs5 heihei/project_5/project_4.srcs/sources_1/new/lab4_top.v:99]. ], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near =. [D:/4302_labs5 heihei/project_5/project_4.srcs/sources_1/new/lab4_top.v:99]. ], 2, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SaveProjectUtils_DONT_SAVE, Don't Save" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 102, 420" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 103, 446" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 104, 501" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 108, 213" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 111, 396" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 113, 417" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 115, 396" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 119, 194" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 119, 352" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 119, 497" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 120, 363" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 124, 230" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 125, 326" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 128, 191" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 129, 300" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 129, 300, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 130, 317" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 130, 317, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 135, 372" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 143, 417" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 145, 525" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 146, 332" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 151, 365" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 157, 179" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 159, 276" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 163, 231" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 166, 451" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 168, 422" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 172, 181" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 176, 316" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 176, 316, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 195, 367" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 210, 506" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 210, 518" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 210, 527" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 213, 102" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 213, 284" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 215, 313" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 216, 310" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 219, 305" value="2" type="GuiResourceData"/>
+<property name="lab4_top.v, 219, 309" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 224, 302" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 228, 316" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 228, 502" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 229, 248" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 233, 496" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 236, 465" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 238, 265" value="2" type="GuiResourceData"/>
+<property name="lab4_top.v, 250, 451" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 253, 284" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 258, 557" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 266, 364" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 267, 320" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 281, 500" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 285, 492" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 287, 140" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 29, 320" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 322, 386" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 353, 371" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 38, 215" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 38, 322" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 48, 285" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 62, 225" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 65, 230" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 70, 109" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 73, 538" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 74, 266" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 75, 450" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 88, 513" value="1" type="GuiResourceData"/>
+<property name="lab4_top.v, 97, 476" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="6" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="4" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

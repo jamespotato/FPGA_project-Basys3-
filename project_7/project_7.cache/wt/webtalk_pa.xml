@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu Nov 21 21:04:12 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="ced1d32c7b464bb3be0033ec0e2bf573" type="ProjectID"/>
+<property name="ProjectIteration" value="16" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="4" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="2" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="2" type="JavaHandler"/>
+<property name="EditRedo" value="6" type="JavaHandler"/>
+<property name="EditUndo" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="11" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="3" type="JavaHandler"/>
+<property name="OpenProject" value="8" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="6" type="JavaHandler"/>
+<property name="RunImplementation" value="9" type="JavaHandler"/>
+<property name="RunSynthesis" value="17" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="7" type="JavaHandler"/>
+<property name="SetTopNode" value="3" type="JavaHandler"/>
+<property name="ShowView" value="10" type="JavaHandler"/>
+<property name="SimulationClose" value="59" type="JavaHandler"/>
+<property name="SimulationRestart" value="63" type="JavaHandler"/>
+<property name="SimulationRun" value="82" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="63" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="1" type="JavaHandler"/>
+<property name="ui.views.b.h.e" value="12" type="JavaHandler"/>
+<property name="ui.views.b.h.f" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager], 26, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager], 26, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, Program device" value="6" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="6" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="Utilization Report - synth_1, 1062, 404" value="1" type="GuiResourceData"/>
+<property name="Utilization Report - synth_1, 1084, 379" value="1" type="GuiResourceData"/>
+<property name="lab7_test .v, 196, 321" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 1, 329" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 107, 214" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 167, 230" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 172, 264" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 173, 355" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 186, 279" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 250, 340" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 354, 423" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 384, 472" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 386, 455" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 399, 448" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 409, 467" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 42, 460" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 433, 147" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 49, 514" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 54, 435" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 7, 328" value="1" type="GuiResourceData"/>
+<property name="lav7_top.v, 80, 487" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="14" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="13" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
