@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FPGA_project_Basys3 
 
 This repositories will present 4 different projects based on Verilog language. Open the folder and there are specific lab introduction and lab report. The lab introduction include the objectives of the project, and the lab report includes specific design code and the simulation results.
@@ -46,3 +47,7 @@ MIT Richard Littauer
 
 
 
+=======
+Hell
+**HELL**
+>>>>>>> b696d5925db8e0b85193d2a0ec1e9e611ff83d0e
