@@ -44,10 +44,3 @@ MIT Richard Littauer
 
 
 
-
-
-
-=======
-Hell
-**HELL**
->>>>>>> b696d5925db8e0b85193d2a0ec1e9e611ff83d0e
